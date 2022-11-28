@@ -2,7 +2,7 @@
 
 str1 = "Holberton"
 
-str2 = "School"
+str2 = "school"
 
 str1 += " " + str2
 
