@@ -2,8 +2,9 @@
 """
 Generates all possible combinations of two digits without repetition.
 
-Numbers must be separated by a comma and space, except for the last combination.
-The last combination is followed by a new line.
+Numbers must be separated by a comma and space, except for the
+last combination. The last combination is followed
+by a new line.
 
 """
 for digit1 in range(0, 10):
