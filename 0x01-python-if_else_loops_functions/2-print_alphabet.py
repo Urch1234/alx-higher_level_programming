@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for alphabets in range(ord('a'), ord('z') + 1):
-    print(chr(alphabets), end=" ")
+"""print the alphabet in lowersace, not followed by a new line."""
+
+for letter in range(97, 123):
+    print("{}".format(chr(letter)), end="")

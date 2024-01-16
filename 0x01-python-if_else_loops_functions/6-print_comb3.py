@@ -6,12 +6,10 @@ Numbers must be separated by a comma and space, except for the last combination.
 The last combination is followed by a new line.
 
 """
-
-for digit_1 in range(9):
-    for digit_2 in range(digit_1 + 1, 10):
-        if (digit_1, digit_2) != (8, 9):
-            # Print the current combination with a comma and space
-            print(f"{digit_1}{digit_2}", end="' ")
+for digit1 in range(0, 10):
+    for digit2 in range(digit1 + 1, 10):
+        if digit1 == 8 and digit2 == 9:
+            print("{}{}".format(digit1, digit2))
         else:
-            # Print the last combination without trailing comma and space
-            print(f"{digit_1}{digit_2}")
+            print("{}{}".format(digit1, digit2), end=", ")
+
