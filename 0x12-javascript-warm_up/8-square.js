@@ -5,7 +5,7 @@ const x = process.argv[2];
 if (!parseInt(x)) {
   console.log('Missing size');
 } else {
-  for (let I = 0; I < x; I++) {
+  for (let i = 0; i < x; i++) {
     console.log('X'.repeat(x));
   }
 }
