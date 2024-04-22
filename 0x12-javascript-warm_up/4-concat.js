@@ -4,12 +4,7 @@
  * Using console.log(...) to print all output.
  * var not allowed
  */
-const args = process.argv.length;
+const argv0 = process.argv[2]
+const argv1 = process.argv[3]
 
-if (args === 3) {
-	console.log(`${args[2]} is ${args[3]}`);
-} else if (args === 2) {
-	console.log(`${args[2]} is undefined`);
-} else {
-	console.log('undefined is undefined');
-}
+console.log(`${argv0} is ${argv1}`);
