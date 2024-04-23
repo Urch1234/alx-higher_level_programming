@@ -163,3 +163,62 @@ Write a script that prints a square
     You must use console.log(...) to print all output
     You are not allowed to use var
 
+11. Second biggest!
+	Write a script that searches the second biggest integer in the list of arguments.
+
+    You can assume all arguments can be converted to integer
+    If no argument passed, print 0
+    If the number of arguments is 1, print 0
+    You must use console.log(...) to print all output
+    You are not allowed to use var
+
+12. Object
+	Update this script to replace the value 12 with 89:
+
+    You are not allowed to use var
+		#!/usr/bin/node
+const myObject = {
+  type: 'object',
+  value: 12
+};
+console.log(myObject);
+/*
+YOUR CODE HERE
+*/
+console.log(myObject);
+
+13. Add file 
+	Write a function that returns the addition of 2 integers.
+
+    The function must be visible from outside
+    The name of the function must be add
+    You are not allowed to use var
+
+14. Const or not const 
+	Write a file that modifies the value of myVar to 333
+	#!/usr/bin/node
+myVar = 89;
+require('./100-let_me_const')
+console.log(myVar);
+~/0x12$ ./100-main.js
+333
+
+15. Call me Moby 
+	Write a function that executes x times a function.
+
+    The function must be visible from outside
+    Prototype: function (x, theFunction)
+    You are not allowed to use var
+
+16. Add me maybe 
+	Write a function that increments and calls a function.
+
+    The function must be visible from outside
+    Prototype: function (number, theFunction)
+    You are not allowed to use var
+
+17. Increment object 
+	Update this script by adding a new function incr that increments the integer value.
+
+    You are not allowed to use var
+
